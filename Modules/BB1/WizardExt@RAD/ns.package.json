@@ -1,0 +1,28 @@
+{
+"gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "sass": [
+            "Sass/**/*.scss"
+        ],
+        "templates": [
+            "Templates/*"
+        ]
+    },
+	"overrides":
+	{
+		"suitecommerce/OrderWizard.Module.Address@2.2.0/JavaScript/OrderWizard.Module.Address.js": "JavaScript/OrderWizard.Module.Address.js",
+		"suitecommerce/OrderWizard.Module.Address@2.2.0/JavaScript/OrderWizard.Module.MultiShipTo.Select.Addresses.Shipping.js": "JavaScript/OrderWizard.Module.MultiShipTo.Select.Addresses.Shipping.js",
+		"suitecommerce/OrderWizard.Module.Address@2.2.0/Sass/_order-wizard-address-module.scss": "Sass/_order-wizard-address-module.scss",
+		"suitecommerce/OrderWizard.Module.PaymentMethod@3.0.0/JavaScript/OrderWizard.Module.PaymentMethod.PurchaseNumber.js": "JavaScript/OrderWizard.Module.PaymentMethod.PurchaseNumber.js",
+		"suitecommerce/OrderWizard.Module.PaymentMethod@3.0.0/JavaScript/OrderWizard.Module.ShowPayments.js": "JavaScript/OrderWizard.Module.ShowPayments.js",
+		"suitecommerce/OrderWizard.Module.PaymentMethod@3.0.0/Sass/_order-wizard-paymentmethod-purchasenumber-module.scss": "Sass/_order-wizard-paymentmethod-purchasenumber-module.scss",
+		"suitecommerce/OrderWizard.Module.PaymentMethod@3.0.0/Templates/order_wizard_paymentmethod_purchasenumber_module.tpl": "Templates/order_wizard_paymentmethod_purchasenumber_module.tpl",
+		"suitecommerce/OrderWizard.Module.PaymentMethod@3.0.0/Templates/order_wizard_showpayments_module.tpl": "Templates/order_wizard_showpayments_module.tpl",
+		"suitecommerce/OrderWizard@2.1.1/Sass/_order-wizard-step.scss": "Sass/_order-wizard-step.scss",
+		"suitecommerce/OrderWizard@2.1.1/Templates/order_wizard_step.tpl": "Templates/order_wizard_step.tpl"
+		,
+		"suitecommerce/OrderWizard.Module.Address@2.2.0/Templates/order_wizard_address_module.tpl": "Templates/order_wizard_address_module.tpl"
+	}
+}

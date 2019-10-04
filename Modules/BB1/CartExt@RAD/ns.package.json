@@ -1,0 +1,7 @@
+{
+"gulp":
+	{
+	
+	},"overrides":
+{"suitecommerce/Cart@3.0.0/JavaScript/Cart.Summary.View.js":"JavaScript/Cart.Summary.View.js","suitecommerce/Cart@3.0.0/Sass/_cart-detailed.scss":"Sass/_cart-detailed.scss","suitecommerce/Cart@3.0.0/Sass/_cart-summary.scss":"Sass/_cart-summary.scss","suitecommerce/Cart@3.0.0/Templates/cart_item_summary.tpl":"Templates/cart_item_summary.tpl","suitecommerce/Cart@3.0.0/Templates/cart_summary.tpl":"Templates/cart_summary.tpl"}
+}

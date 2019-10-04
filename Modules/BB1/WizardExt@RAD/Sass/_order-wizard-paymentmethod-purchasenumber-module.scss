@@ -1,0 +1,63 @@
+/*
+	© 2016 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+
+	BB1 G Truslove Aug 2017
+*/
+
+.order-wizard-paymentmethod-purchasenumber-module {
+	@extend .box-column;
+	overflow:hidden;
+}
+
+.box-column-shrink{
+	padding: $sc-padding-small/2 $sc-padding-small;
+	margin-left: - ($grid-gutter-width / 2);
+	margin-right: - ($grid-gutter-width / 2);
+	margin-bottom: $sc-medium-margin;
+
+	background-color: $sc-color-theme-background-light;
+
+	@media (min-width: $screen-sm-min){
+		
+		padding: $sc-padding-medium/2 $sc-padding-medium;
+		border-top:0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: $sc-base-margin * 6;
+	}
+}
+
+.order-wizard-paymentmethod-purchasenumber-module-shrink {
+	@extend .box-column-shrink;
+	overflow:hidden;
+}
+
+.order-wizard-paymentmethod-purchasenumber-module-purchase-order-value {
+	@extend .input-large;
+}
+
+.order-wizard-paymentmethod-purchasenumber-module-purchase-order-label {
+	@extend .sc-value;
+	display: block;
+	margin-bottom: $sc-base-margin;
+	font-size: $sc-base-font-size;
+	font-weight: $sc-font-weight-semibold;
+}
+
+.order-wizard-paymentmethod-purchasenumber-module-row {
+	@extend .clearfix;
+	width: 100%;
+	margin-bottom: $sc-base-margin * 3;
+}
+
+.order-wizard-paymentmethod-purchasenumber-module-purchase-order-optional {
+	@extend .input-optional;
+	font-weight: $sc-font-weight-normal;
+}
+
+.order-wizard-paymentmethod-purchasenumber-module-title {
+	margin-bottom: $sc-small-margin;
+}

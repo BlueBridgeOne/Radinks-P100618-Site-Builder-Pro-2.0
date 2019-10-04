@@ -1,0 +1,33 @@
+/* BB1 G Truslove July 2017 */
+
+.order-wizard-paymentmethod-reference-module {
+	@extend .box-column;
+	overflow:hidden;
+}
+
+.order-wizard-paymentmethod-reference-module-value {
+	@extend .input-large;
+}
+
+.order-wizard-paymentmethod-reference-module-label {
+	@extend .sc-value;
+	display: block;
+	margin-bottom: $sc-base-margin;
+	font-size: $sc-base-font-size;
+	font-weight: $sc-font-weight-semibold;
+}
+
+.order-wizard-paymentmethod-reference-module-row {
+	@extend .clearfix;
+	width: 100%;
+	margin-bottom: $sc-base-margin * 3;
+}
+
+.order-wizard-paymentmethod-reference-module-optional {
+	@extend .input-optional;
+	font-weight: $sc-font-weight-normal;
+}
+
+.order-wizard-paymentmethod-reference-module-title {
+	margin-bottom: $sc-small-margin;
+}

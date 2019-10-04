@@ -1,0 +1,63 @@
+/*
+	BB1 G Truslove May 2017
+*/
+
+.massreturns-td,.massreturns-th{padding:6px 10px;}
+input{max-width:100%!important;}
+
+.massreturns{max-width:100%!important;}
+.massreturns-button-back {
+    @extend .button-back;
+}
+
+.massreturns-button-back-icon {
+    @extend .button-back-icon;
+}
+
+.massreturns-form-label {
+    display: inline-block;
+}
+
+.massreturns-form-group-label-required {
+    @extend .input-required;
+}
+
+.massreturns {
+    @extend .address-edit;
+}
+
+.massreturns-form-title {}
+.massreturns-form-area {}
+
+.massreturns-form {
+    margin-top: $sc-base-margin * 3;
+}
+
+.massreturns-form-group,
+.massreturns-form-actions {
+    @extend .control-group;
+}
+
+.massreturns-form-group-label {
+    @extend .input-label
+}
+
+.massreturns-form-group-label-required {
+}
+
+.massreturns-form-group-input {
+    @extend .input-large
+}
+
+.massreturns-form-actions-update {
+    @extend .button-primary;
+    @extend .button-medium;
+}
+
+.massreturns-form-actions-reset {
+    @extend .button-tertiary;
+    @extend .button-medium;
+    @extend .button-positioning-stack2next;
+}
+
+.massreturns-group-form-controls{}

@@ -1,0 +1,33 @@
+{
+	"gulp":
+	{
+	"javascript": [
+            "JavaScript/*.js"
+        ],
+		"images": ["Images/*"],
+		 "templates": [
+            "Templates/*"
+        ]
+	},
+
+	"overrides":
+	{
+		"suitecommerce/ItemViews@1.3.0/JavaScript/ItemViews.Cell.Actionable.View.js": "JavaScript/ItemViews.Cell.Actionable.View.js",
+		"suitecommerce/Address@2.3.0/JavaScript/Address.List.View.js": "JavaScript/Address.List.View.js",
+		"suitecommerce/ItemViews@1.3.0/Sass/_item-views-cell-actionable-expanded.scss": "Sass/_item-views-cell-actionable-expanded.scss",
+		"suitecommerce/ItemViews@1.3.0/Sass/_item-views-cell-actionable.scss": "Sass/_item-views-cell-actionable.scss",
+		"suitecommerce/ItemViews@1.3.0/Sass/_item-views-stock.scss": "Sass/_item-views-stock.scss",
+		"suitecommerce/ItemViews@1.3.0/Templates/item_views_cell_actionable.tpl": "Templates/item_views_cell_actionable.tpl",
+		"suitecommerce/ItemViews@1.3.0/Templates/item_views_cell_navigable.tpl": "Templates/item_views_cell_navigable.tpl",
+		"suitecommerce/Address@2.3.0/Templates/address_list.tpl": "Templates/address_list.tpl",
+		"suitecommerce/OrderHistory@4.0.0/SuiteScript/OrderHistory.Model.js": "SuiteScript/OrderHistory.Model.js",
+		"suitecommerce/SspLibraries@3.0.0/Configuration/SuiteScript.json": "Configuration/SuiteScript.json",
+		"suitecommerce/SspLibraries@3.0.0/Configuration/Translations.json": "Configuration/Translations.json",
+		"suitecommerce/SspLibraries@3.0.0/SuiteScript/ServiceController.Validations.js": "SuiteScript/ServiceController.Validations.js",
+		"suitecommerce/SspLibraries@3.0.0/SuiteScript/ServiceController.js": "SuiteScript/ServiceController.js",
+		"suitecommerce/LivePayment@2.2.0/JavaScript/LivePayment.Model.js": "JavaScript/LivePayment.Model.js",
+		"suitecommerce/Invoice@3.1.0/JavaScript/Invoice.OpenList.View.js": "JavaScript/Invoice.OpenList.View.js",
+		"suitecommerce/PaymentWizard@2.2.0/JavaScript/PaymentWizard.Module.Invoice.js": "JavaScript/PaymentWizard.Module.Invoice.js",
+		"suitecommerce/Invoice@3.1.0/JavaScript/Invoice.Collection.js": "JavaScript/Invoice.Collection.js"
+	}
+}
